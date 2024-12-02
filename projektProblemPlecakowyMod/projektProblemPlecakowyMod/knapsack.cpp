@@ -1,4 +1,7 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <math.h>
 #include "additionalFunctions.cpp"
 
 using namespace std;
@@ -99,4 +102,35 @@ static vector<string> knapsackProblemAllSolutions(vector<Item> items, double con
     }
 
     return possibleSolutions;
+}
+
+static string knapsackProblemSimulatedAnnealing(vector<Item> items, double const maxWeight, double const maxVolume, double tp, double alpha, int maxIter) {
+    string currOption = "";
+    for (int i = 0; i < items.size(); i++) {
+        currOption += "0";
+    }
+
+    string bestOption = currOption;
+    double t = tp;
+
+    srand(static_cast<unsigned>(time(0)));
+
+    for (int i = 0; i < maxIter; i++) {
+        string newOption = neighbor(currOption, items.size());
+
+        double currValue = checkOption(currOption, items, maxWeight, maxVolume);
+        double newValue = checkOption(newOption, items, maxWeight, maxVolume);
+
+        if (newValue > currValue || (newValue > -1 && exp((newValue - currValue) / t) > (double)rand() / RAND_MAX)) {
+            currOption = newOption;
+        }
+
+        if (checkOption(currOption, items, maxWeight, maxVolume) > checkOption(bestOption, items, maxWeight, maxVolume)) {
+            bestOption = currOption;
+        }
+
+        t += alpha;
+    }
+
+    return bestOption;
 }

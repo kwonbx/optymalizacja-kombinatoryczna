@@ -1,6 +1,8 @@
 ﻿  projektProblemPlecakowyMod.cpp
-D:\Documents\STUDIA\OKOM\projektProblemPlecakowyMod\projektProblemPlecakowyMod\additionalFunctions.cpp(40,16): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+D:\Documents\STUDIA\OKOM\optymalizacja-kombinatoryczna\projektProblemPlecakowyMod\projektProblemPlecakowyMod\additionalFunctions.cpp(40,16): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
   (kompilowanie pliku źródłowego „projektProblemPlecakowyMod.cpp”)
   
-D:\Documents\STUDIA\OKOM\projektProblemPlecakowyMod\projektProblemPlecakowyMod\additionalFunctions.cpp(47,1): warning C4715: "binaryAddOne”: niewszystkie ścieżki kodu zwracają wartość
-  projektProblemPlecakowyMod.vcxproj -> D:\Documents\STUDIA\OKOM\projektProblemPlecakowyMod\x64\Debug\projektProblemPlecakowyMod.exe
+D:\Documents\STUDIA\OKOM\optymalizacja-kombinatoryczna\projektProblemPlecakowyMod\projektProblemPlecakowyMod\knapsack.cpp(119,59): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  (kompilowanie pliku źródłowego „projektProblemPlecakowyMod.cpp”)
+  
+  projektProblemPlecakowyMod.vcxproj -> D:\Documents\STUDIA\OKOM\optymalizacja-kombinatoryczna\projektProblemPlecakowyMod\x64\Debug\projektProblemPlecakowyMod.exe
