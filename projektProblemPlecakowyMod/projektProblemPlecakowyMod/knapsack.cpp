@@ -42,7 +42,7 @@ static vector<Item> knapsackProblemRandomGreedy(vector<Item> items, double const
     return chosenItems;
 }
 
-static vector<string> knapsackProblemAllSolutions(vector<Item> items, double const maxWeight, double const maxVolume) {
+static vector<Item> knapsackProblemBruteForce(vector<Item> items, double const maxWeight, double const maxVolume) {
     string currOption = "";
     string lastOption = "";
     for (int i = 0; i < items.size(); i++) {
@@ -52,9 +52,11 @@ static vector<string> knapsackProblemAllSolutions(vector<Item> items, double con
 
     double currWeight = 0;
     double currVolume = 0;
+    double currValue = 0;
     int flag = 0;
-    vector<string> possibleSolutions;
     vector<Item> chosenItems;
+    vector<Item> bestOption;
+    double bestValue = 0;
 
 
     while (currOption != lastOption) {
@@ -71,15 +73,20 @@ static vector<string> knapsackProblemAllSolutions(vector<Item> items, double con
             }
             currWeight += chosenItems[i].weight;
             currVolume += chosenItems[i].volume;
+            currValue += chosenItems[i].value;
         }
 
         if (flag == 0) {
-            possibleSolutions.push_back(currOption);
+            if (currValue > bestValue) {
+                bestValue = currValue;
+                bestOption = chosenItems;
+            }
         }
 
         flag = 0;
         currWeight = 0;
         currVolume = 0;
+        currValue = 0;
         chosenItems.clear();
         currOption = binaryAddOne(currOption);
     }
@@ -95,13 +102,17 @@ static vector<string> knapsackProblemAllSolutions(vector<Item> items, double con
         }
         currWeight += chosenItems[i].weight;
         currVolume += chosenItems[i].volume;
+        currValue += chosenItems[i].value;
     }
 
     if (flag == 0) {
-        possibleSolutions.push_back(currOption);
+        if (currValue > bestValue) {
+            bestValue = currValue;
+            bestOption = chosenItems;
+        }
     }
 
-    return possibleSolutions;
+    return bestOption;
 }
 
 static string knapsackProblemSimulatedAnnealing(vector<Item> items, double const maxWeight, double const maxVolume, double tp, double alpha, int maxIter) {
@@ -129,7 +140,7 @@ static string knapsackProblemSimulatedAnnealing(vector<Item> items, double const
             bestOption = currOption;
         }
 
-        t += alpha;
+        t *= alpha;
     }
 
     return bestOption;

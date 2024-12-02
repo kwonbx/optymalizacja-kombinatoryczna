@@ -1,10 +1,9 @@
 ﻿#include <iostream>
 #include "knapsack.cpp"
-#include <fstream>
-#include <nlohmann/json.hpp>
+#include "generator.cpp"
+#include "readJsonFile.cpp"
 
 using namespace std;
-using json = nlohmann::json;
 
 int main()  
 {
@@ -20,7 +19,7 @@ int main()
     double maxWeight = 60;
     double maxVolume = 50;
 
-    vector<Item> solution = knapsackProblemRandomGreedy(items, maxWeight, maxVolume);
+    vector<Item> solution = knapsackProblemBruteForce(items, maxWeight, maxVolume);
     double weight = 0;
     double volume = 0;
     double value = 0;

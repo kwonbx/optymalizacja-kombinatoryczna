@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\knapsack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\knapsack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\additionalFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\additionalFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\readJsonFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\readJsonFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\generator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|solutionrelative:projektProblemPlecakowyMod\\generator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C668F8E1-40CF-4623-8B88-4A946EA0951E}|projektProblemPlecakowyMod\\projektProblemPlecakowyMod.vcxproj|D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "item.h",
               "DocumentMoniker": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\item.h",
               "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\item.h",
@@ -38,8 +46,7 @@
               "RelativeToolTip": "projektProblemPlecakowyMod\\item.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-11T15:38:35.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T15:38:35.65Z"
             },
             {
               "$type": "Document",
@@ -49,33 +56,57 @@
               "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\additionalFunctions.cpp",
               "ToolTip": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\additionalFunctions.cpp",
               "RelativeToolTip": "projektProblemPlecakowyMod\\additionalFunctions.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T15:39:33.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "knapsack.cpp",
               "DocumentMoniker": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\knapsack.cpp",
               "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\knapsack.cpp",
               "ToolTip": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\knapsack.cpp",
               "RelativeToolTip": "projektProblemPlecakowyMod\\knapsack.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T15:37:26.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "generator.cpp",
+              "DocumentMoniker": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\generator.cpp",
+              "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\generator.cpp",
+              "ToolTip": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\generator.cpp",
+              "RelativeToolTip": "projektProblemPlecakowyMod\\generator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T10:38:44.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "readJsonFile.cpp",
+              "DocumentMoniker": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\readJsonFile.cpp",
+              "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\readJsonFile.cpp",
+              "ToolTip": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\readJsonFile.cpp",
+              "RelativeToolTip": "projektProblemPlecakowyMod\\readJsonFile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T11:59:20.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "projektProblemPlecakowyMod.cpp",
               "DocumentMoniker": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp",
               "RelativeDocumentMoniker": "projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp",
               "ToolTip": "D:\\Documents\\STUDIA\\OKOM\\optymalizacja-kombinatoryczna\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp",
               "RelativeToolTip": "projektProblemPlecakowyMod\\projektProblemPlecakowyMod.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-10T13:18:07.707Z",
               "EditorCaption": ""
